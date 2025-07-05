@@ -4,7 +4,7 @@ import json
 def youtube_extract():
       
    fresh=[]
-   api_key="AIzaSyDaWP3vZnDcSNr5cbJ-_TKdeyGZV9IWfjE"
+   api_key="Your_API_Key"
    continent_regions = {
     "Asia": ["IN", "ID", "JP", "KR", "SG", "TH", "VN", "PH", "MY", "BD", "PK", "LK", "NP"],
     "Europe": ["GB", "DE", "FR", "IT", "ES", "PL", "SE", "NO", "FI", "NL", "BE"],
