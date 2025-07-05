@@ -4,7 +4,7 @@ import numpy as np
 
 def youtube_load():
 
-  conn = pymysql.connect(host='localhost',port=3307,user='appuser',password='ashpika',database='global_youtube_music_details',charset='utf8mb4')
+  conn = pymysql.connect(host='hostname',port=port_id,user='DB_user_id',password='DB_pass',database='global_youtube_music_details',charset='utf8mb4')
 
   def insert_database(query,data_to_insert):
      try:
