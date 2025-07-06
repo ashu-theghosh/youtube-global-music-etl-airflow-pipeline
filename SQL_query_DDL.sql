@@ -20,10 +20,6 @@ song_thumbnail longtext,
 channel_title varchar(500))
 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
 
-CREATE USER 'appuser'@'%' IDENTIFIED BY 'ashpika';
-GRANT ALL PRIVILEGES ON global_youtube_music_details.* TO 'appuser'@'%';
-FLUSH PRIVILEGES;
-
 describe video_details;
 
 
